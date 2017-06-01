@@ -84,6 +84,8 @@
 									<textarea rows="5" id="message" name="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
 								</div>
 							</div>
+							<!-- Google reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Le40SMUAAAAACBZWdU52rXFuL_zxpc-X57PNat8"></div>
 
 							<button class="btn btn-default" type="reset">Reset</button>
 							<button class="btn btn-info" type="submit">Submit</button>
@@ -94,11 +96,13 @@
 					</div><!-- /.col-sm-6 -->
 				</div><!-- /.row -->
 
+				<!-- EMPTY FORM OUTPUT AREA -->
 				<div class="row">
 					<div class="col-md-6">
 						<div id="output-area"></div>
 					</div>
 				</div>
+
 			</main>
 		</div>
 
